@@ -1,4 +1,4 @@
-# Always clarify with the customer, "What issues are we seeing? What have you tried so far?"
+# Always clarify, "What issues are we seeing? What have you tried so far?"
 ### Basic Checklist:
 
 ```mermaid
