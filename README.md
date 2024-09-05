@@ -3,9 +3,9 @@
 
 ```mermaid
 flowchart TD
-idLevel1[(Basic Troubleshooting)] ~~~ id1[[1. Requirements]]
--->|Ensure the requirements are met|id2[[2. Widget Setup]] 
--->|Widget contains everything required to show on the screen|id3[[3. Try resetting/updating your device]]
+idLevel1[(Basic Troubleshooting)] ~~~ id1(1. Requirements)
+-->|Ensure the requirements are met|id2(2. Widget Setup)
+-->|Widget contains everything required to show on the screen|id3(3. Try resetting/updating your device)
 ```
 
 #### Are the basic requirements met? What has been done so far to test?
