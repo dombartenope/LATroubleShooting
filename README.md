@@ -1,14 +1,7 @@
 # Always clarify, "What issues are we seeing? What have you tried so far?"
 ### Basic Checklist:
 
-```mermaid
-flowchart TD
-idLevel1[(Basic Troubleshooting)] ~~~ id1(1. Requirements)
--->|Ensure the requirements are met|id2(2. Widget Setup)
--->|Widget contains everything required to show on the screen|id3(3. Try resetting/updating your device)
-```
-
-#### Are the basic requirements met? What has been done so far to test?
+### Are the basic requirements met? What has been done so far to test?
 - What SDK Version are you on? Here are the absolute minimums needed for live activities (not including updates that allow for push to start, only for live activity support):
 ![](attachment/633dc11ce6fdcbb2a4aa4c0f8065ed9f.png)
 - Are you using a physical device or a simulator? Have you tried using other devices yet, or just the one you initially tested with?
@@ -22,14 +15,6 @@ idLevel1[(Basic Troubleshooting)] ~~~ id1(1. Requirements)
 
 ### Advanced Troubleshooting
 
-```mermaid
-flowchart TD
-idLevel2[(Advanced Troubleshooting)] ~~~
-id4[[1. Code]] 
--->|Ensure the code matches our guides|id5[[2. Logs]] 
--->|Set Verbose logs and make sure we're outputting Live Activities info|id6[[3. HTTP Request]]
--->|The request names match the letter-casing, attributes, etc exactly|id7[[4. Escalation or Bug Report]]
-```
 ### A more granular look at the set up
 - Are we using iOS native or a Wrapper SDK like React Native, Flutter, etc.?
 	- #### iOS Native:
